@@ -32,3 +32,8 @@
 .row__poster:hover {
   transform: scale(1.08);
 }
+
+h2 {
+  font-weight: 600;
+  letter-spacing: 2px;
+}

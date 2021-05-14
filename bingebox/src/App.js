@@ -3,14 +3,15 @@ import './App.css';
 import Row from './Row';
 import requests from './requests';
 import Banner from './Banner';
-
+import Nav from './Nav'
 function App() {
   return (
     <div className="App">
-      <h1>Netflix clone</h1>
+      <Nav />
+      {/* <h1>Binge-Box</h1> */}
     <Banner />
 
-      <Row title="BINGEBOX ORIGINALS" fetchUrl={requests.bingeBoxOriginals} isLargeRow/>
+      <Row title="BINGE-BOX ORIGINALS" fetchUrl={requests.bingeBoxOriginals} isLargeRow/>
       <Row title="Trending Now" fetchUrl={requests.trending} />
       <Row title="Top Rated" fetchUrl={requests.topRated} />
       <Row title="Action Movies" fetchUrl={requests.actionMovies} />
