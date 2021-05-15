@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "binge-box-movieapp",
+    "bingebox": "binge-box-movieapp"
+  }
+}
