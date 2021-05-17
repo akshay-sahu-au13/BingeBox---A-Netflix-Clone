@@ -1,0 +1,10 @@
+{
+  "projects": {
+<<<<<<< HEAD
+    "default": "binge-box-videostreaming"
+=======
+    "default": "binge-box-movieapp",
+    "bingebox": "binge-box-movieapp"
+>>>>>>> f8ff0cace24c4dd819c797f49c64599cfe2c0b51
+  }
+}
